@@ -18,5 +18,5 @@ def productExceptSelf(self, nums: List[int]) -> List[int]:
         answer.append(left*right)
     return answer
   
-  
   ## lessons learnt:  find the product of all the numbers to its left, find the product of all the numbers to its right, and the product of these two numbers is the answer
+
