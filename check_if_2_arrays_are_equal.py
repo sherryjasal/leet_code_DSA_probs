@@ -27,7 +27,3 @@ class Solution:
           
 ## Lessons Learnt
 ## sort() sorts the list and replaces the original list, whereas sorted(list) returns a sorted copy of the list, without changing the original list.
-          
-          
-          
-         
