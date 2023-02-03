@@ -34,3 +34,11 @@ def search(self, nums: List[int], target: int) -> int:
   
 ## Though this is not an optimised solution but it is using binary search
 ## since it sorted so in binary search left will always be lesser than right and compare it with mid elt
+
+
+def binarysearch(self, arr, n, k):
+    for i in range(len(arr)):
+        if arr[i] == k:
+            return i
+
+    return -1
